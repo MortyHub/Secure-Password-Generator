@@ -26,7 +26,7 @@ def start():
     try:
         for i in range(int(input("How many Characters? >>"))):
             print(password)
-            time.sleep(0.5)
+            time.sleep(0.1)
             os.system("clear")
             
             char = random.randrange(1,4)
