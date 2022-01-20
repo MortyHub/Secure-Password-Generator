@@ -49,9 +49,9 @@ def start():
 
             if Wants[2] == True:
                 if char == 3:
-                    passs = random.choice(lowercase)
+                    passs = random.choice(Symbols)
                     while passs == past:
-                        passs = random.choice(lowercase)
+                        passs = random.choice(Symbols)
                     password += passs
                     past = passs
 
