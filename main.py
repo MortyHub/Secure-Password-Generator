@@ -24,7 +24,7 @@ def start():
     if input("Custom Symbols? (y/n) >> ") == "y":
         Wants[3] = True
     try:
-        for i in range(int(input("How many Characters? >>"))):
+        for i in range(int(input("How many Characters? >> "))):
             print(password)
             time.sleep(0.1)
             os.system("clear")
